@@ -37,8 +37,9 @@
 }
 
 .inicio{
-    margin: 20px;
-    display: flex;
+    padding-top: 80px;
+    margin: 0 auto;
+    position: absolute;
     text-align: center;
     align-items: center;
   
