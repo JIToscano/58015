@@ -28,14 +28,11 @@
   padding: 10px;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-}
-
-.carrusel2 {
-  height: 456px;
-  object-fit: fill;
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 70vh;
+  overflow: hidden;
 }
 
 .inicio {
