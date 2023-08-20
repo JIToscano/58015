@@ -1,0 +1,119 @@
+@import "./variables.scss" ;
+
+*{      
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.logoweb {
+    width: 30px;
+    height: 60px;
+    
+}
+.navegador{
+    background-color:$backgroundColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    ul {
+        list-style: none;
+        display: flex;
+        li a{
+            color: beige;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        }
+    
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel2 {
+    height: 456px;
+    object-fit: fill;
+}
+
+.inicio{
+    padding-top: 80px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+  
+}
+
+.imglarga{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.productos { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjeta{
+    width: 260px;
+    background-color: rgb(236, 58, 130);
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #31b225;
+    border-radius: 5px;
+    border-top: 10px #3d19b6 solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.piedepagina {
+    background-color: aquamarine;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+
+
+}
+
+.mapapie{
+    width: fit-content;
+}
+
+
+.button{
+    background-color: #3d19b6;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button2 {
+    width: min-content;
+    background-color: #3d19b6;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+ 
+ 
+
+}
+

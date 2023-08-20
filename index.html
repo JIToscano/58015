@@ -5,20 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pintureria automotor</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
 </head>
 <body>
-    <nav class="navegador">
-        <img class="logoweb" src="../multimedia/img/logopaginaweb.jpg" alt="latadepintura">
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/contactos.html">Contactos</a></li>
-        </ul>
-    </nav>     
+    <nav class="navbar navbar-expand-lg bg-primary text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="./index.html"><img class="logoweb" src="./multimedia/img/logousar-removebg-preview.png" alt="logosherwinwillinams"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/contactos.html">Contactos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-disabled="false" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <header class="header">
-             <h1 class="inicio">Inicio</h1>
-             <img class="imglarga" src="./multimedia/img/fotosliderinicio.jpg" alt="pinturasmano">   
+        
+        <div id="carouselExampleDark" class="carousel carousel-dark slide h-100">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./multimedia/img/auto de formula 1.jpg" class="d-block w-100 carrusel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Especialistas en Repintado Automotor</h2>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./multimedia/img/cabina de pintura 2.JPG" class="d-block w-100 carrusel2 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Especialistas en Repintado Automotorl</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./multimedia/img/cabina de pintura 3.JPG" class="d-block w-100 carrusel2 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Especialistas en Repintado Automotor</h2>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
     <main class="productos">  
             <div class="tarjeta">
@@ -87,7 +141,10 @@
         <h2 class="redes">Seguinos en nuestras redes</h2>
         <p class="contacto">Lorem ipsum 3 dolor sit amet consectetur adipisicing elit. Debitis amet deserunt quibusdam in, voluptas reprehenderit labore doloremque aliquam, repudiandae facere magnam eligendi minus cupiditate veritatis odit quos alias? Quae dolorum voluptatibus sequi ducimus unde laudantium quidem, expedita minima nihil recusandae velit voluptas asperiores. Dolores perspiciatis veritatis obcaecati sapiente repellendus ad.</p>
         <button class="button2">compartir</button>
+        <i class="fa-solid fa-phone"></i>
     </footer>
+    <script src="https://kit.fontawesome.com/ee8373371b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
